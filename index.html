@@ -3,30 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>Akbar Mirza | Home</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="site-header">
+    <h1 class="site-title">Akbar Mirza</h1>
+    <nav class="site-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
         <li><a href="work.html">Work I've Done</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About Me</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <section class="jumbotron"></section>
+    <section class="gallery image"></section>
     <section class="content">
       <h1>Welcome to My Website</h1>
-      <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pharetra augue. Vivamus a metus et ipsum accumsan scelerisque. Pellentesque nec leo iaculis enim varius efficitur. Aenean pharetra libero eu rhoncus iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin eu vestibulum leo, ut pellentesque risus. Praesent aliquet varius ornare. Proin et consectetur justo. Phasellus ullamcorper imperdiet orci. Donec id nibh at augue fringilla egestas sed nec lorem. Ut dolor leo, interdum vel euismod vitae, iaculis ut diam. Nam ut magna pellentesque massa euismod suscipit. Praesent auctor, velit in fringilla egestas, odio turpis blandit metus, nec auctor odio nibh eget justo. Morbi nunc magna, laoreet ac semper eget, vestibulum et justo. Sed euismod pretium gravida. Praesent suscipit augue eget sapien sodales commodo.
-      </p>
-      <img src="http://placehold.it/200x200" alt="Placeholder Image">
+      <div class="container row">
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pharetra augue. Vivamus a metus et ipsum accumsan scelerisque. Pellentesque nec leo iaculis enim varius efficitur. Aenean pharetra libero eu rhoncus iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin eu vestibulum leo, ut pellentesque risus.
+          </p>
+        </div>
+        <div class="image">
+          <img src="http://placehold.it/150" alt=""
+               class="img-inset">
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-    <img src="http://placehold.it/40x40" alt="Email">
+
+  <footer class="footer">
     <a href="mailto:akbarbmirza@gmail.com">Contact Me via Email</a>
   </footer>
 </body>
