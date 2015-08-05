@@ -166,3 +166,40 @@ main .about {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ecf0f1;
 }
+
+/* Made Use of CodePen Code from wolfcreativo
+   http://codepen.io/wolfcreativo/pen/xGrgaX?editors=110
+*/
+/* Flat Buttons*/
+.btn-flat {
+  padding: 10px;
+  font-weight:400;
+  border-radius:3px;
+  float:left;
+  margin-bottom: 10px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.btn-flat a {
+  color:#fff;
+  text-decoration:none;
+}
+.btn-flat a i {
+  margin-right:7px;
+  color:#f4f4f4;
+}
+.btn-ft-twitter {
+  background-color:#07baf1;
+}
+.btn-ft-twitter:hover {
+  background-color:#08acdf;
+}
+.btn-ft-linkedin {
+  background-color:#1786b0;
+}
+.btn-ft-linkedin:hover {
+  background-color:#14759a;
+}
