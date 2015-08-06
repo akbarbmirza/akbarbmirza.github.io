@@ -12,6 +12,10 @@ body {
   font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
 }
 
+body * {
+  box-sizing: border-box;
+}
+
 /* Flex-Box Stuff */
 .container {
   /* Formatting & Layout */
@@ -19,9 +23,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .row {
@@ -33,6 +37,7 @@ body {
   -webkit-flex-flow: row nowrap;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
+  width: 100%;
 }
 
 /* Site Header */
@@ -131,6 +136,13 @@ main {
   border-top: 1px solid #7f8c8d;
 }
 
+.img-slider {
+  align-items: center;
+  margin: 5% auto;
+  height: 300px;
+  width: 40%;
+}
+
 main .about {
   display: block;
   text-align: center;
@@ -156,7 +168,7 @@ main .about {
   clear: both;
 }
 
-.project {
+/*.project {
   margin: 2.5%;
   font-size: 12px;
 }
@@ -165,7 +177,7 @@ main .about {
   padding: 2.5%;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ecf0f1;
-}
+}*/
 
 /* Made Use of CodePen Code from wolfcreativo
    http://codepen.io/wolfcreativo/pen/xGrgaX?editors=110
@@ -182,6 +194,7 @@ main .about {
   -ms-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  box-shadow: inset 0 0 1px black;
 }
 .btn-flat a {
   color:#fff;
