@@ -78,6 +78,11 @@ body * {
   color: black;
 }
 
+.site-nav a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
 .site-nav .current {
   /* Formatting & Layout */
   padding-bottom: 5px;
@@ -186,7 +191,7 @@ main .about {
 .btn-flat {
   padding: 10px;
   font-weight:400;
-  border-radius:3px;
+  border: 2px solid black;
   float:left;
   margin-bottom: 10px;
   -webkit-transition: all 300ms ease-in-out;
@@ -195,24 +200,29 @@ main .about {
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   box-shadow: inset 0 0 1px black;
+  width: 100%;
+  text-align: center;
 }
 .btn-flat a {
-  color:#fff;
+  color: black;
   text-decoration:none;
 }
 .btn-flat a i {
   margin-right:7px;
-  color:#f4f4f4;
 }
-.btn-ft-twitter {
+
+.btn-flat a:hover {
+  color: white;
+}
+/*.btn-ft-twitter {
   background-color:#07baf1;
-}
+}*/
 .btn-ft-twitter:hover {
   background-color:#08acdf;
 }
-.btn-ft-linkedin {
+/*.btn-ft-linkedin {
   background-color:#1786b0;
-}
+}*/
 .btn-ft-linkedin:hover {
   background-color:#14759a;
 }
