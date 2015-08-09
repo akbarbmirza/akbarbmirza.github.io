@@ -96,9 +96,43 @@ main {
 .gallery {
   /* Formatting & Layout */
   height: 300px;
+  position: relative;
 
   /* Background */
   background-color: lightgray;
+  background-image: url(../images/space.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery h2 {
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.gallery .attribute {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px;
+  color: white;
+}
+
+.gallery .attribute a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid white;
+}
+
+.gallery .attribute a:hover {
+  color: #3498db;
+  border-bottom: 1px solid #3498db;
 }
 
 .content {
@@ -126,10 +160,6 @@ main {
           flex: 1;
   margin: auto;
   text-align: center;
-}
-
-.image {
- box-shadow: inset 0 0 10px #000000;
 }
 
 .footer {
