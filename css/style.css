@@ -178,6 +178,22 @@ main {
   width: 40%;
 }
 
+.img-slider a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.img-slider a:hover {
+  color: #3498db;
+  border-bottom: 1px solid #3498db;
+}
+
+#selectors {
+  background-image: url(../images/selectors.png);
+  background-size: cover;
+}
+
 main .about {
   display: block;
   text-align: center;
