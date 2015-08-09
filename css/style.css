@@ -203,26 +203,31 @@ main .about {
   width: 100%;
   text-align: center;
 }
-.btn-flat a {
+ a .btn-flat {
   color: black;
   text-decoration:none;
 }
-.btn-flat a i {
+ a .btn-flat i {
   margin-right:7px;
 }
 
-.btn-flat a:hover {
+a:hover .btn-flat  {
   color: white;
 }
-/*.btn-ft-twitter {
-  background-color:#07baf1;
-}*/
+
 .btn-ft-twitter:hover {
-  background-color:#08acdf;
+  background-color: #08acdf;
 }
-/*.btn-ft-linkedin {
-  background-color:#1786b0;
-}*/
+
 .btn-ft-linkedin:hover {
-  background-color:#14759a;
+  background-color: #14759a;
+}
+
+.btn-ft-github:hover {
+  background-color: #333333;
+}
+
+button:hover a {
+  color: white;
+  background: none;
 }
