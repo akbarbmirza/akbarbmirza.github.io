@@ -1,0 +1,3 @@
+[submodule "plugins/img-slider"]
+	path = plugins/img-slider
+	url = git@github.com:akbarbmirza/img-slider.git
