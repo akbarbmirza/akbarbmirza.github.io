@@ -171,26 +171,36 @@ main {
   border-top: 1px solid #7f8c8d;
 }
 
-.img-slider {
-  align-items: center;
-  margin: 5% auto;
-  height: 300px;
-  width: 40%;
+.work {
+  text-align: center;
 }
 
-.img-slider a {
+.slider {
+  height: 300px;
+  width: 300px;
+  margin: 20px 10px;
+
+  border: 1px solid black;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.caption small {
+  text-align: left;
+}
+
+.slider a {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
 }
 
-.img-slider a:hover {
+.slider a:hover {
   color: #3498db;
   border-bottom: 1px solid #3498db;
 }
 
-#selectors {
-  background-image: url(../images/selectors.png);
+#sonic-selectors {
+  background-image: url(../images/projects/sonic-selectors.png);
   background-size: cover;
 }
 
