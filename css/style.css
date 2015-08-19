@@ -176,16 +176,15 @@ main {
 }
 
 .slider {
-  height: 300px;
-  width: 300px;
   margin: 20px 10px;
 
   border: 1px solid black;
   font-family: 'Helvetica', sans-serif;
 }
 
-.caption small {
+.desc {
   text-align: left;
+  font-size: 16px;
 }
 
 .slider a {
