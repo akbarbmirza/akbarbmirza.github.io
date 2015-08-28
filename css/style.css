@@ -208,6 +208,15 @@ main {
   background-size: cover;
 }
 
+#img-slider {
+  background-image: url(../images/projects/img-slider.png);
+  background-size: cover;
+}
+
+#astro-proj {
+  background-image: url(../images/projects/astro-proj.png)
+}
+
 main .about {
   display: block;
   text-align: center;

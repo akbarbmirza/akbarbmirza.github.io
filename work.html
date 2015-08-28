@@ -46,19 +46,23 @@
         </p>
       </div>
     </section>
-    <section class="slider" id="">
+    <section class="slider" id="img-slider">
       <div class="caption collapse">
-        <h3 class="title">Project Three</h3>
+        <h3 class="title">Image Slider</h3>
         <p class="desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque possimus corporis eos dolorum alias mollitia suscipit, magnam voluptatum atque eum vel! Sint porro quisquam dolore placeat magnam repellat nisi ipsum!
+          The Image Slider was my short experiment with jQuery. I wanted to
+          create something to highlight my projects on my portfolio, so I used
+          the simple concept of an image with some slideover text. The magic of
+          jQuery made it a very quick and easy task, and after some further
+          modifications, I was able to make it a standalone plug-in!
         </p>
       </div>
     </section>
-    <section class="slider" id="">
+    <section class="slider" id="astro-proj">
       <div class="caption collapse">
-        <h3 class="title">Project Four</h3>
+        <h3 class="title">Astrology</h3>
         <p class="desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque possimus corporis eos dolorum alias mollitia suscipit, magnam voluptatum atque eum vel! Sint porro quisquam dolore placeat magnam repellat nisi ipsum!
+          For my "Teach the Class Something," I decided to show the class an old project that I worked on. I made a website for a project that my friend was doing. It was really interesting to work on and I got to play around with the visual design and I was really proud of it by the end.
         </p>
       </div>
     </section>
@@ -73,7 +77,9 @@
     imageSlider.init({
       slider: '.slider',
       caption: '.caption',
-      title: '.title'
+      title: '.title',
+      desc: '.desc',
+      collapse: '.collapse'
     });
   </script>
 </body>
